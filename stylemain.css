@@ -1,0 +1,113 @@
+/* Importation des polices depuis le dossier local */
+@font-face {
+  font-family: 'Cam Code';
+  src: url('fonts/Camcode.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Calling Code';
+  src: url('fonts/CallingCode-Regular.ttf') format('truetype');
+}
+
+html, body {
+  padding: 1em 2em;
+  font-size: 18px;
+  background: #222;
+  color: #aaa;
+}
+
+h1, h2 {
+  margin: 0.4em 0;
+}
+
+h1 {
+  font-family: 'Cam Code', sans-serif; /* Police Cam Code pour les titres */
+  font-size: 3.5em; 
+  font-weight: 350;
+  margin-left: 50px;
+  padding-top: 90px;
+}
+
+h2 {
+  font-family: 'Calling Code', sans-serif; /* Police Monocode pour les sous-titres */
+  color: #888;
+  font-size: 2em;
+  font-weight: 350;
+  margin-left: 50px;
+}
+
+/* Styles pour le Header et le Menu */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin-bottom: 20px; /* Espacement sous le header */
+}
+
+.logo img {
+  height: 50px; /* Ajustez la hauteur de votre logo */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  font-family: 'Cam Code', sans-serif; 
+  color: #888; /* Couleur des liens */
+  text-decoration: none;
+  font-size: 21px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline; /* Effet au survol */
+}
+
+.spacer{
+  padding: 225px;
+}
+
+.column {
+  float: left;
+}
+
+#left {
+  width: 70%;
+  
+}
+
+#right {
+  width: 25%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.firstHR{
+  color: #0065A8;
+  font-family: 'Cam Code', sans-serif; 
+  text-decoration: none;
+  font-size: 21px;
+  width: 200px;
+  display: flex;
+  align-items: start;
+}
+
+.secondHR{
+  color: #0D9B4F;
+  font-family: 'Cam Code', sans-serif; 
+  text-decoration: none;
+  font-size: 21px;
+  width: 200px;
+  display: flex;
+}
