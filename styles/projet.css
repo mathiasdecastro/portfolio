@@ -1,0 +1,107 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+}
+
+.project-title {
+    font-size: 2.5em;
+    color: #13bfbc; /* Couleur d'accentuation bleue */
+}
+
+.project-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.gallery-slider {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    overflow: hidden;
+}
+
+.gallery-image-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.gallery-image {
+    min-width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.gallery-button {
+    position: absolute;
+    top: 50%;
+    background-color: #13bfbc; /* Couleur des boutons */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.project-info {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+.info-item {
+    text-align: center;
+}
+
+.info-item h3 {
+    font-size: 1.2em;
+    color: #13bfbc; /* Accentuation bleue */
+}
+
+.divider {
+    width: 80%;
+    margin: 20px auto;
+    border: none;
+    height: 2px;
+    background-color:#13bfbc;
+}
+
+.project-description {
+    text-align: center;
+    padding: 0 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1em;
+}
+
+.close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+    color: #13bfbc;
+    font-size: 2em;
+    border: none;
+    cursor: pointer;
+}

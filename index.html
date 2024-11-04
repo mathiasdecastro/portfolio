@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">NOM PRENOM</div>
+            <ul>
+                <li><a href="index.html">Acceuil</a></li>
+                <li><a href="gallery.html">Portfolio</a></li>
+                <li><a href="about.html">A propos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="welcome">
+            <div class="photo">
+                <img src="images/image1.jpg" alt="Votre photo">
+            </div>
+            <h1 class="welcome-text">Bienvenue sur mon portfolio !</h1>
+        </section>
+
+        
+            <section class="presentation-activities">
+                <div class="presentation-text">
+                    <h2>PRÉSENTATION</h2>
+                    <p>Je suis un professionnel passionné par mes activités.</p>
+                </div>
+                <div class="activities">
+                    <h3>MES ACTIVITÉS</h3>
+                    <p>Voici un aperçu des activités que j'exerce.</p>
+                </div>
+            </section>
+
+            <section class="tools">
+                <section class="icons">
+                    <div class="icons-container">
+                        <div class="icon">
+                            <img src="images/logoCSharp.png" alt="C#">
+                        </div>
+                        <div class="icon">
+                            <img src="images/logoCSS.png" alt="CSS">
+                        </div>
+                        <div class="icon">
+                            <img src="images/logoHTML.png" alt="HTML">
+                        </div>
+                        <div class="icon">
+                            <img src="images/logoJAVA.png" alt="Java">
+                        </div>
+                        <div class="icon">
+                            <img src="images/logoJS.png" alt="JS">
+                        </div>
+                        <div class="icon">
+                            <img src="images/logonetbeans.png" alt="NetBeans">
+                        </div>
+                        <div class="icon">
+                            <img src="images/logoSQL.png" alt="SQL">
+                        </div>
+                        <div class="icon">
+                            <img src="images/logoSQLServerManagement.png" alt="sqlserver">
+                        </div>
+                        <div class="icon">
+                            <img src="images/logoVisuCode.png" alt="VSCode">
+                        </div>
+                        <div class="icon">
+                            <img src="images/logoVisuStudio.png" alt="VS">
+                        </div>
+                        <div class="icon">
+                            <img src="images/logoWINDESIGN.png" alt="logoWINDESIGN">
+                        </div>
+                    </div>
+                </section>
+
+            </section>
+
+        <section class="gallery">
+            <h2>GALERIE</h2>
+            <div class="gallery-images">
+                <div class="image" style="background-image: url('images/GOATGallery.png');"></div>
+                <div class="image" style="background-image: url('images/TOWAGallery.png');"></div>
+                <div class="image" style="background-image: url('images/PixelWarGallery.png');"></div>
+            </div>
+            <button class="portfolio-button">Voir le Portfolio</button>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2>CONTACTEZ-MOI</h2>
+            <form>
+                <label for="name">Nom :</label>
+                <input type="text" id="name" required>
+                
+                <label for="email">Email :</label>
+                <input type="email" id="email" required>
+
+                <label for="message">Message :</label>
+                <textarea id="message" required></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 NOM PRENOM</p>
+    </footer>
+</body>
+</html>

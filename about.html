@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À propos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+    <!-- Titre principal de la page -->
+    <header>
+        <nav>
+            <div class="logo">NOM PRENOM</div>
+            <ul>
+                <li><a href="index.html">Acceuil</a></li>
+                <li><a href="gallery.html">Portfolio</a></li>
+                <li><a href="about.html">A propos</a></li>
+            </ul>
+        </nav>  
+    </header>
+
+    <h1 class="about-title">À propos de moi</h1>
+    <!-- Section de présentation avec photo et texte -->
+    <section class="about-section">
+        <div class="about-photo">
+            <img src="images/photo-profil.jpg" alt="Photo de profil" class="profile-photo">
+        </div>
+        <div class="about-description">
+            <h2 class="about-heading">Présentation</h2>
+            <p>Je suis un développeur passionné, spécialisé dans la création de solutions web modernes et esthétiques. Avec une expertise dans plusieurs langages de programmation et une expérience en conception d'interface utilisateur, je suis motivé par l'innovation et la créativité dans chaque projet.</p>
+            <button class="cv-button" onclick="window.location.href='CV.pdf'">
+                <i class="cv-icon">&#128194;</i> Télécharger le CV
+            </button>
+        </div>
+    </section>
+
+    <!-- Section Expériences Professionnelles -->
+    <section class="experience-section">
+        <h2 class="experience-heading">Expériences Professionnelles</h2>
+        <div class="experience-list">
+            <div class="experience-item">
+                <h3>Développeur Web</h3>
+                <span class="experience-date">Janv 2021 - Présent</span>
+                <p>Travail en équipe sur des projets complexes pour des clients divers, intégrant des fonctionnalités avancées en JavaScript et React.</p>
+            </div>
+            <div class="experience-item">
+                <h3>Chef de Projet</h3>
+                <span class="experience-date">Mars 2019 - Déc 2020</span>
+                <p>Gestion de projets de développement logiciel, garantissant la coordination efficace des équipes techniques et la satisfaction des clients.</p>
+            </div>
+            <div class="experience-item">
+                <h3>Stage Développement</h3>
+                <span class="experience-date">Juin 2018 - Août 2018</span>
+                <p>Stage d'initiation au développement de sites web, avec création d'interfaces utilisateurs modernes et adaptées.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Formation Professionnelle -->
+    <section class="education-section">
+        <h2 class="education-heading">Formation Professionnelle</h2>
+        <div class="education-list">
+            <div class="education-item">
+                <h3>Master en Informatique</h3>
+                <span class="education-date">2016 - 2018</span>
+                <p>Université XYZ, spécialisation en développement web et gestion de projets numériques.</p>
+            </div>
+            <div class="education-item">
+                <h3>Licence en Informatique</h3>
+                <span class="education-date">2013 - 2016</span>
+                <p>Université ABC, formation initiale en programmation et sciences informatiques.</p>
+            </div>
+            <div class="education-item">
+                <h3>BTS Systèmes Numériques</h3>
+                <span class="education-date">2011 - 2013</span>
+                <p>Lycée DEF, spécialisation en développement de systèmes numériques et réseaux.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
