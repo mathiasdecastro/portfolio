@@ -56,10 +56,10 @@ nav ul li a {
 
 .center {
     display: flex;
-    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne */
-    justify-content:space-between; /* Aligne à gauche */
-    max-width: 1200px; /* Ajustez la largeur maximale selon vos besoins */
-    gap: 25px; /* Espace entre les images */
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: 1200px;
+    gap: 25px;
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -102,23 +102,23 @@ nav ul li a {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #24F0D8; /* Couleur turquoise */
+    background-color: rgba(36, 240, 216, 0.9); /* Couleur turquoise semi-transparente */
     color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     opacity: 0; /* Commence caché */
-    transform: scale(0.8) rotate(5deg); /* Légère échelle et rotation */
-    transition: opacity 0.4s ease, transform 0.4s ease; /* Animation de fondu et transformation */
+    transform: translateY(20px); /* Déplacement vers le bas */
+    filter: blur(4px); /* Flou au début */
+    transition: opacity 0.4s ease, transform 0.4s ease, filter 0.4s ease;
 }
 
 .image:hover .overlay {
     opacity: 1; /* Apparition au survol */
-    transform: scale(1) rotate(0); /* Retourne à l'échelle normale et à la rotation neutre */
+    transform: translateY(0); /* Position normale */
+    filter: blur(0); /* Supprime le flou */
 }
-
-
 
 footer {
     padding: 20px;

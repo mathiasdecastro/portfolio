@@ -1,55 +1,65 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Présentation de Projet</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../styles/projet.css">
-    <script src="../script.js"></script>
-</head>
-<body>
-    <header>
-        <h1 class="project-title">Titre du Projet</h1>
-        <button class="close-button" onclick="window.location.href='../gallery.html'">&times;</button>
-    </header>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>La course de G.O.A.T</title>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="../styles/projet.css">
+		<script src="../script.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1 class="project-title">La course de G.O.A.T</h1>
+			<button class="close-button" onclick="window.location.href='../gallery.html'">Retour</button>
+			<a class="github-link" href="https://github.com"><img src="../images/GHLogo.png" alt="Logo GitHub"> <p>Télécharger le projet</p></a>
+		</header>
 
-    <main>
-        <!-- Galerie d'images défilante -->
-        <section class="project-gallery">
-            <div class="gallery-slider">
-                <button class="gallery-button prev">&#10094;</button>
-                <div class="gallery-image-container">
-                    <div class="gallery-image" style="background-image: url('images/projet1.jpg');"></div>
-                    <div class="gallery-image" style="background-image: url('images/projet2.jpg');"></div>
-                    <div class="gallery-image" style="background-image: url('images/projet3.jpg');"></div>
-                </div>
-                <button class="gallery-button next">&#10095;</button>
-            </div>
-        </section>
+		<main>
+			<section class="project-gallery">
+				<div class="gallery-slider">
+					<button class="gallery-button prev">&#10094;</button>
+				<div class="gallery-image-container">
+					<div class="gallery-image" style="background-image: url('images/projet1.jpg');"></div>
+					<div class="gallery-image" style="background-image: url('images/projet2.jpg');"></div>
+					<div class="gallery-image" style="background-image: url('images/projet3.jpg');"></div>
+				</div>
+					<button class="gallery-button next">&#10095;</button>
+				</div>
+			</section>
 
-        <section class="project-info">
-            <div class="info-item">
-                <h3>Durée du projet</h3>
-                <p>3 mois</p>
-            </div>
-            <div class="info-item">
-                <h3>Nombre de personnes</h3>
-                <p>5 personnes</p>
-            </div>
-            <div class="info-item">
-                <h3>Langage</h3>
-                <p>JavaScript, HTML, CSS</p>
-            </div>
-        </section>
+			<section class="project-info">
+				<div class="info-item">
+					<h3>Durée du projet</h3>
+					<p>1 semaine</p>
+				</div>
+				<div class="info-item">
+					<h3>Nombre de personne(s)</h3>
+					<p>4 personnes</p>
+				</div>
+				<div class="info-item">
+					<h3>Rôle(s)</h3>
+					<p>Développeur</p>
+				</div>
+			</section>
 
+			<section class="divider">
+				<div class="info-item">
+					<h3>Technologie(s)</h3>
+					<div class="technologies-list">
+						<div class="technology">
+							<img src="../images/logoJAVA.png" alt="Java Logo" class="technology-logo">
+						</div>
+						<div class="technology">
+							<img src="../images/logo_javafx.png" alt="JavaFX Logo" class="technology-logo">
+						</div>
+					</div>
+				</div>
+			</section>
 
-        <hr class="divider">
-
-
-        <section class="project-description">
-            <p>Ce projet a été conçu pour explorer les bases du développement web, en intégrant des fonctionnalités interactives et des styles modernes. Notre équipe a travaillé en collaboration pour créer une expérience utilisateur agréable et esthétique.</p>
-        </section>
-    </main>
-</body>
+			<section class="project-description">
+				<p>Ce projet a été conçu pour explorer les bases du développement web, en intégrant des fonctionnalités interactives et des styles modernes. Notre équipe a travaillé en collaboration pour créer une expérience utilisateur agréable et esthétique.</p>
+			</section>
+		</main>
+	</body>
 </html>

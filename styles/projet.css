@@ -79,14 +79,6 @@ header {
     color: #13bfbc; /* Accentuation bleue */
 }
 
-.divider {
-    width: 80%;
-    margin: 20px auto;
-    border: none;
-    height: 2px;
-    background-color:#13bfbc;
-}
-
 .project-description {
     text-align: center;
     padding: 0 20px;
@@ -98,10 +90,61 @@ header {
 .close-button {
     position: absolute;
     top: 20px;
-    right: 20px;
+    left: 30px;
     background-color: transparent;
     color: #13bfbc;
-    font-size: 2em;
+    font-size: 25px;
     border: none;
     cursor: pointer;
+}
+
+.technologies-list {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+    overflow-x: auto;
+    padding: 10px 0;
+}
+
+.technology {
+    display: flex;
+    align-items: center;
+}
+
+.technology-logo {
+    width: 100px; 
+    height: 100px;
+    margin-right: 8px;
+}
+
+.divider {
+    background-color: #1f1f1f;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.github-link {
+    position: absolute;
+    display: flex;
+    top: 20px;
+    right: 30px;
+    color: #13bfbc;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.github-link img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.github-link p {
+    margin-top: 7px;
 }

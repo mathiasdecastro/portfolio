@@ -1,13 +1,13 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #1a1a1a; /* Fond moins sombre */
+    background-color: #1a1a1a;
     color: white;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #1a1a1a; /* Fond aligné avec le reste */
+    background-color: #1a1a1a;
 }
 
 nav {
@@ -39,7 +39,7 @@ nav ul li a {
 
 .welcome {
     display: flex;
-    justify-content: center; /* Centre le texte */
+    justify-content: center;
     align-items: center;
     padding: 50px 0;
     padding-bottom: 200px;
@@ -60,13 +60,13 @@ nav ul li a {
     background-color: #1f1f1f;
     display: flex;
     padding: 20px;
-    justify-content: center; /* Centre la présentation et les activités */
+    justify-content: center;
     align-items: center;
 }
 
 .presentation-text, .activities {
     flex: 1;
-    text-align: center; /* Texte centré */
+    text-align: center;
 }
 
 .presentation-text {
@@ -78,9 +78,9 @@ nav ul li a {
 }
 
 .tools {
-    background-color: #242424; /* Section plus sombre */
+    background-color: #242424;
     padding: 20px;
-    text-align: center; /* Centrer le texte */
+    text-align: center;
 }
 
 .gallery {
@@ -99,7 +99,7 @@ nav ul li a {
     height: 200px;
     background-size: cover;
     background-position: center;
-    border-radius: 15px; /* Bord arrondi pour les images */
+    border-radius: 15px;
     transition: transform 0.3s;
 }
 
@@ -110,29 +110,34 @@ nav ul li a {
 .portfolio-button {
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #13bfbc; /* Nouvelle couleur d'accentuation */
+    background-color: #13bfbc;
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
+}
+
+.portfolio-button a {
+    text-decoration: none;
+    color: white;
 }
 
 .contact {
     padding: 20px;
-    text-align: center; /* Centrer le texte */
+    text-align: center;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centrer le formulaire */
+    align-items: center;
 }
 
 form label {
     margin-top: 10px;
 }
 
-form input,
-form textarea {
+form input, form textarea {
     padding: 10px;
     margin-top: 5px;
     border: 1px solid #ddd;
@@ -144,10 +149,11 @@ form textarea {
 form button {
     margin-top: 10px;
     padding: 10px;
-    background-color: #13bfbc; /* Nouvelle couleur d'accentuation */
+    background-color: #13bfbc;
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .icons {
@@ -158,45 +164,43 @@ form button {
 .icons-container {
     display: flex;
     justify-content: center;
-    gap: 20px; /* Espace entre les icônes */
+    gap: 20px;
 }
 
 .icon img {
-    width: 90px; /* Taille des icônes */
+    width: 90px;
     height: 90px;
-    transition: transform 0.3s; /* Animation pour l'effet au survol */
+    transition: transform 0.3s;
 }
 
 .icon img:hover {
-    transform: scale(1.2); /* Agrandir l'icône au survol */
+    transform: scale(1.2);
 }
 
-/* Titre principal centré et souligné en bleu */
 .about-title {
     font-size: 3em;
     color: #13bfbc;
     text-align: center;
-    margin: 20px auto; /* Centre le titre horizontalement */
+    margin: 20px auto;
     border-bottom: 3px solid #13bfbc;
     display: block;
-    width: fit-content; /* S'assure que le titre prend la largeur de son contenu */
+    width: fit-content;
 }
-/* Présentation avec photo */
+
 .about-section {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
     padding: 40px;
-    margin-bottom: 60px; /* Ajoute plus d'espace après la première section */
+    margin-bottom: 60px;
 }
 
-/* Sections Expériences et Formation */
 .experience-section, .education-section {
     padding: 40px;
     background-color: #2a2a2a;
     color: #ffffff;
-    margin-bottom: 80px; /* Espacement entre les sections */
+    margin-bottom: 80px;
 }
 
 .profile-photo {
@@ -216,7 +220,6 @@ form button {
     margin-bottom: 10px;
 }
 
-/* Bouton de téléchargement de CV */
 .cv-button {
     margin-top: 20px;
     background-color: #13bfbc;
@@ -234,7 +237,6 @@ form button {
 .cv-icon {
     font-size: 1.2em;
 }
-
 
 .experience-heading, .education-heading {
     font-size: 2em;
